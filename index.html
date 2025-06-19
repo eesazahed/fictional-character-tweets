@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>fictional character tweets</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>fictional character tweets</h1>
+        <br />
+        <p>"imagine if <b class="random-name"></b> had twitter"</p>
+        <p>well now you don't have to imagine</p>
+      </header>
+      <main class="main">
+        <form class="form">
+          <input
+            type="text"
+            id="name-input"
+            class="name-input"
+            name="name-input"
+            placeholder="name a fictional character"
+          />
+          <button type="submit" class="submit-button">generate</button>
+        </form>
+        <p class="loading-message"></p>
+        <div class="feed"></div>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+    <script type="module" src="./assets/js/main.js"></script>
+  </body>
+</html>
