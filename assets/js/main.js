@@ -73,7 +73,9 @@ const generateFeed = async (nameInputValue) => {
 
     return parsed;
   } catch {
-    setLoadingMessage("failed to parse data, click 'generate' again maybe");
+    setLoadingMessage(
+      "AI failed to generate parsable data, try clicking 'generate' again"
+    );
     return null;
   }
 };

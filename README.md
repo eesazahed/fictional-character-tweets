@@ -6,4 +6,4 @@ AI-generated tweets from fictional characters, generated using Hack Club's free 
 
 <img src="./assets/images/demo.png" alt="Demo" style="max-width:500px;">
 
-AI was used to help refine the [prompt](https://github.com/eesazahed/fictional-character-tweets/blob/main/assets/js/prompt.js) and parsing the JSON it provided.
+AI was used to help refine the [prompt](https://github.com/eesazahed/fictional-character-tweets/blob/main/assets/js/prompt.js) and parse the JSON it provided.
