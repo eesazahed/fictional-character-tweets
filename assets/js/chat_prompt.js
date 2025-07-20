@@ -60,12 +60,17 @@ Example Output:
     {
       "sender": "Zuko",
       "timestamp": "09:03 AM - 14 May 100 AG",
-      "message": "why did you send me a flying lemur meme with my face on it"
+      "message": "why did you send me this goofy meme with my face on it"
     },
     {
       "sender": "Aang",
       "timestamp": "09:05 AM - 14 May 100 AG",
-      "message": "because it's accurate. angry firebenders need to laugh sometimes 🔥🌀"
+      "message": "cuz its funny"
+    },
+    {
+      "sender": "Zuko",
+      "timestamp": "09:08 AM - 14 May 100 AG",
+      "message": "no it isnt u cornball"
     },
     ...
   ]
