@@ -1,4 +1,4 @@
-export const prompt = `
+export const prompt = `/no_think 
 
 If the input is empty, nonsensical, or does not correspond to a recognizable fictional character name, return: just []
 Do NOT include markdown formatting, code blocks, or any delimiters around the JSON. Output ONLY raw JSON, no wrapping, no backticks, no syntax highlighting.
