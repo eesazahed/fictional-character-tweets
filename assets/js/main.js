@@ -53,7 +53,11 @@ const generateFeed = async (nameInputValue) => {
   const data = await response.json();
 
   try {
-    const responseData = data.choices[0].message.content;
+    const responseData = data.choices[0].message.content.replace(
+      /<think>\s*<\/think>\s*/g,
+      ""
+    );
+
     const parsed = JSON.parse(responseData);
 
     if (Array.isArray(parsed) && parsed.length === 0) {
